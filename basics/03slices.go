@@ -5,8 +5,9 @@ import "fmt"
 func main() {
 	fmt.Println("slices and arrays:")
 	axes := [2][]int{
-		{0, 1, 2, 3, 4, 5}, // X axis
-		{0, 1, 2, 3, 4, 5}, // Y axis
+		// v--- First axis (rows)
+		{0, 1, 2, 3, 4, 5}, // <--- Second axis (columns)
+		{0, 1, 2, 3, 4, 5},
 	}
 
 	// TODO use append to add a 7th row and 7th column to the axes.  The numbers you add are your choice
